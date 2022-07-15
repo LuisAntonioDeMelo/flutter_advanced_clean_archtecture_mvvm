@@ -1,4 +1,4 @@
-# stocks
+# flutter_advanced_clean_archtecture_mvvm
 
 A new Flutter project.
 
