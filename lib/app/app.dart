@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class MyApp extends StatefulWidget {
-  // ignore: prefer_const_constructors_in_immutables
-  MyApp._internal(); //private named constructor
+  MyApp._internal();
 
-  static final MyApp instance = MyApp
-      ._internal(); //single instancia - singleton //será estatica e não vai mudar
+  static final MyApp instance = MyApp._internal();
 
-  factory MyApp() => instance; // factory for the class instance
+  factory MyApp() => instance;
   int appState = 0;
-  // como usar??
 
   @override
   State<MyApp> createState() => _MyAppState();
